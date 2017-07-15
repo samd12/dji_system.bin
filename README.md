@@ -7,13 +7,17 @@ Please contact FSF and ask for the GPL source code that DJI uses to be published
 
 http://www.fsf.org/licensing/compliance
 
-Known Md5s of files pulled from DJI updates. 
+Known Md5s of files pulled from DJI updates, user contributed files, and exploits. 
 MD5 (V01.00.0300_Spark_dji_system.bin) = bf81af1c10318e8549bb78b0fef85013
 MD5 (V01.00.0400_Spark_dji_system.bin) = 65f15f4cbe7d761459c7a09ebc660801
 MD5 (V01.03.0400_Mavic_dji_system.bin) = a5ac037462b4f902bfa6cb8d9fe395ae
 MD5 (V01.03.0700_Mavic_dji_system.bin) = 891904fad23add85e8c50a7902f272df
 MD5 (V01.03.0800_Mavic_dji_system.bin) = 6602c26ed0729581246853d7c988a4ae
 MD5 (V01.03.0900_Mavic_dji_system.bin) = 984446beb028443670091e07d3bbd752
+MD5 (V1.02.0602_P4crafted.dji_system.bin) = 36e11566ae6e303ec5c407f9c0f6c382
+MD5 (V2.00.0106_P4crafted.dji_system.bin) = a49944bb254354ec064bee13c491fa1e
+MD5 (ba2144c_UniversalFireworksTar_dji_system.bin) = 6d50cae11993dc9996c293914769a998
+MD5 (mavic_combined_700_root.bin) = 3613a4f0112cafbf04c7fc6d55e35295
 
 Known files from *homebrew* variants
 
