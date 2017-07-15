@@ -1,4 +1,6 @@
 # dji_system.bin
+If you have access to this, do NOT link it outside of slack, in videos, readme's, FAQs, etc
+
 DJI is currently in violation of GPL... these binaries are intended to be distributed to end users that have purchased either an inspire2, Mavic, Spark, or P4 variant drone,and are seeking to downgrade their aircraft back to its factory state. 
 
 Please contact FSF and ask for the GPL source code that DJI uses to be published. 
