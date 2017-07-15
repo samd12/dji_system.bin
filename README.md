@@ -28,6 +28,8 @@ To combine your own files do the following (using gnu-tar from brew if on OSX):
 $ cp UniversalFireworksTar_dji_system.bin mavic_combined_700_root.bin 
 $ gtar --concatenate --file mavic_combined_700_root.tar V01.03.0700_Mavic_dji_system.bin
 $ tar tvf mavic_combined_700_root.tar 
+sh-3.2# mv mavic_combined_700_root.tar mavic_combined_700_root.bin
+
 -rw-r--r--  0 root   staff      37 Jul  9 01:51 Burning0day.txt
 lrwxr-xr-x  0 root   staff       0 Jul  9 01:51 symlink -> /data/.bin
 -rwxr-xr-x  0 root   staff     517 Jul  9 01:51 symlink/grep
