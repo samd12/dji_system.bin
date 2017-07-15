@@ -16,7 +16,7 @@ MD5 (V01.03.0800_Mavic_dji_system.bin) = 6602c26ed0729581246853d7c988a4ae
 MD5 (V01.03.0900_Mavic_dji_system.bin) = 984446beb028443670091e07d3bbd752
 MD5 (V1.02.0602_P4crafted.dji_system.bin) = 36e11566ae6e303ec5c407f9c0f6c382
 MD5 (V2.00.0106_P4crafted.dji_system.bin) = a49944bb254354ec064bee13c491fa1e
-MD5 (ba2144c_UniversalFireworksTar_dji_system.bin) = 6d50cae11993dc9996c293914769a998
+MD5 (UniversalFireworksTar_dji_system.bin) = 10e4b4ba3da6e2e2455f2958ea897e9c
 MD5 (mavic_combined_700_root.bin) = 3613a4f0112cafbf04c7fc6d55e35295
 
 Known files from *homebrew* variants
@@ -25,7 +25,7 @@ MD5 (V01.00.0X00_XXXX_dji_system.bin)  = TBDTBDTBDTBDTBDTBDTBDTBDTBDTBDTBD
 
 
 To combine your own files do the following (using gnu-tar from brew if on OSX):
-$ cp ba2144c_UniversalFireworksTar_dji_system.bin mavic_combined_700_root.bin 
+$ cp UniversalFireworksTar_dji_system.bin mavic_combined_700_root.bin 
 $ gtar --concatenate --file mavic_combined_700_root.tar V01.03.0700_Mavic_dji_system.bin
 $ tar tvf mavic_combined_700_root.tar 
 -rw-r--r--  0 root   staff      37 Jul  9 01:51 Burning0day.txt
