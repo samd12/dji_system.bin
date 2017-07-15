@@ -20,13 +20,32 @@ MD5 (V01.00.0X00_XXXX_dji_system.bin)  = TBDTBDTBDTBDTBDTBDTBDTBDTBDTBDTBD
 Instructions thanks to vk2fro for taking the initiative to start *doing* instead of asking "Where is the FAQ?" like so many others
 
 ```
-To flash, choose a firmware and rename it dji_system.bin. Copy it to the pyduml folder.
+Mavic Flashing Faq V0.3 by vk2fro
+Flashing the Mavic Pro Drone is bloody simple with the pyduml.py script. You will need:
+a linux or mac box (live usb will work for linux)
+a mavic pro drone and connecting cable
+the script (pyduml.py) - https://github.com/hdnes/pyduml
+(mac only) homebrew - to install stuff
+pip
+python
+libusb
+adb (if you would like root)
+a firmware file (check #archived_fw_flashing for my links (vk2fro) or grab them off your momsʼs git (this one if your reading from there).
+a half hour and a coffee/beer
 
-cd to /dev with the mavic connected and find the usb modem (in my case, tty.usbmodem14E5).
+To flash, drag the firmware into the pyduml.py folder
 
-execute python pyduml.py /dev/<your.modem.number> (tty.usbmodem14E5).
+open up a terminal and cd to /dev with the mavic connected and type ls tty.usb* and youʼll find the usb modem (in my case, tty.usbmodem14E5).
 
-Flashing takes around 10 minutes. Watch the lights on the mavic.
+now cd back to the pyduml folder - if its in you home directory, cd ~/pyduml (donʼt forget the ~)
+
+type mv <firmware name> dji_system.bin (this changes the name to work with the script)
+
+execute python pyduml.py /dev/<your.modem.number> (tty.usbmodem14E5). 
+
+python pyduml.py /dev/tty.usbmodem14E5 for example
+
+Flashing takes around 10 minutes. Watch the lights on the mavic. The mavic will chime close to completion and when the lights stop flashing it is done. Be patient - 10 minutes seems like an awfully long time, but you donʼt get a progress bar like when you flash with assistant. Do not disconnect the drone when the script says its finished - thats only the upload portion!
 
 To root, rename fireworks.tar dji_system.bin and re run the script as above. Power cycle the drone 2 minutes after running the script. DO NOT TURN OFF YET after the power cycle.
 
@@ -37,5 +56,6 @@ echo /system/bin/adb_en.sh >> /system/bin/start_dji_system.sh
 reboot
 
 This makes the root permenant.
+
 ```
 
