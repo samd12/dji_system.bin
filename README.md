@@ -2,6 +2,7 @@
 DJI is currently in violation of GPL... these binaries are intended to be distributed to end users that have purchased either an inspire2, Mavic, Spark, or P4 variant drone,and are seeking to downgrade their aircraft back to its factory state. 
 
 https://www.gnu.org/licenses/gpl-faq.en.html
+```
 “GPL gives a person permission to make & redistribute copies of the program if & when that person chooses to do so”
 https://www.gnu.org/licenses/gpl-faq.en.html#CanIDemandACopy
 “You can charge people a fee to get a copy from you. You can't require people to pay you when they get a copy from someone else.”
@@ -29,6 +30,7 @@ https://www.gnu.org/licenses/gpl-faq.en.html#MustSourceBuildToMatchExactHashOfBi
 https://www.gnu.org/licenses/gpl-faq.en.html#TradeSecretRelease
 “If a company distributes a copy to you and claims it is a trade secret, the company has violated the GPL” 
 https://www.gnu.org/licenses/gpl-faq.en.html#TradeSecretRelease
+```
 
 
 Please contact FSF and ask for the GPL source code that DJI uses to be published. 
