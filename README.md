@@ -37,6 +37,7 @@ Please contact FSF and ask for the GPL source code that DJI uses to be published
 http://www.fsf.org/licensing/compliance
 
 Known Md5s of files pulled from DJI updates, user contributed files, and exploits. 
+```
 MD5 (UniversalFireworksTar_dji_system.bin) = 10e4b4ba3da6e2e2455f2958ea897e9c
 MD5 (V01.00.0300_Spark_dji_system.bin) = bf81af1c10318e8549bb78b0fef85013
 MD5 (V01.00.0400_Spark_dji_system.bin) = 65f15f4cbe7d761459c7a09ebc660801
@@ -46,12 +47,14 @@ MD5 (V01.03.0800_Mavic_dji_system.bin) = 6602c26ed0729581246853d7c988a4ae
 MD5 (V01.03.0900_Mavic_dji_system.bin) = 984446beb028443670091e07d3bbd752
 MD5 (V1.02.0602_P4crafted.dji_system.bin) = 36e11566ae6e303ec5c407f9c0f6c382
 MD5 (V2.00.0106_P4crafted.dji_system.bin) = a49944bb254354ec064bee13c491fa1e
+```
 
 Known files from *homebrew* variants
 
 MD5 (mavic_combined_400_root.bin) = 86b322026612e96fa09373bc8560674a - from hostile (drops root & downgrades to Mavic .400)
 
 To combine your own files do the following (using gnu-tar from brew if on OSX):
+```
 $ cp UniversalFireworksTar_dji_system.bin mavic_combined_700_root.bin 
 $ gtar --concatenate --file mavic_combined_700_root.tar V01.03.0700_Mavic_dji_system.bin
 $ tar tvf mavic_combined_700_root.tar 
@@ -80,7 +83,7 @@ lrwxr-xr-x  0 root   staff       0 Jul  9 01:51 symlink -> /data/.bin
 -rwxrwxrwx  0 0      users  3052000 Jul 12 15:41 wm220_0805_v01.01.00.87_20170427.pro.fw.sig
 -rwxrwxrwx  0 0      users    92096 Jul 12 15:41 wm220_0905_v00.00.01.04_20170301.pro.fw.sig
 -rwxrwxrwx  0 0      users     5888 Jul 12 15:41 wm220.cfg.sig
-
+```
 You can see this file has BOTH the root, and the downgrade packaged together. 
 
 This is the most up to date source of info on "rooting" DJI aircraft. Start here with questions
