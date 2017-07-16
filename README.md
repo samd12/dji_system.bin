@@ -1,9 +1,38 @@
 # dji_system.bin
-If you have access to this, do NOT link it outside of slack, in videos, readme's, FAQs, etc
-
 DJI is currently in violation of GPL... these binaries are intended to be distributed to end users that have purchased either an inspire2, Mavic, Spark, or P4 variant drone,and are seeking to downgrade their aircraft back to its factory state. 
 
+https://www.gnu.org/licenses/gpl-faq.en.html
+“GPL gives a person permission to make & redistribute copies of the program if & when that person chooses to do so”
+https://www.gnu.org/licenses/gpl-faq.en.html#CanIDemandACopy
+“You can charge people a fee to get a copy from you. You can't require people to pay you when they get a copy from someone else.”
+
+“if someone pays your fee and gets a copy, the GPL gives them the freedom to release it to the public, with or without a fee”
+“The GPL says that anyone who receives a copy from you has the right to redistribute copies, modified or not.”
+https://www.gnu.org/licenses/gpl-faq.en.html#DoesTheGPLAllowNDA
+“If it depends on a nonfree library to run at all, it cannot be part of a free operating system such as GNU;”
+https://www.gnu.org/licenses/gpl-faq.en.html#FSWithNFLibs
+“If they form a single combined program then the main program must be released under the GPL”
+You cannot incorporate GPL-covered software in a proprietary system.”
+https://www.gnu.org/licenses/gpl-faq.en.html#GPLInProprietarySystem
+“you must make sure that the free and nonfree programs communicate at arms length”
+https://www.gnu.org/licenses/gpl-faq.en.html#GPLInProprietarySystem
+“Can I release a modified version of a GPL-covered program in binary form only?”
+https://www.gnu.org/licenses/gpl-faq.en.html#ModifiedJustBinary
+“The exception for the case where you received a written offer for source code is quite limited.”
+“must be open to everyone who has a copy”
+“This is a well-meaning request, but this method of providing the source doesn't really do the job.”
+https://www.gnu.org/licenses/gpl-faq.en.html#DistributingSourceIsInconvenient
+“As long as you make the source and binaries available so that the users can see what's available and take what they want”
+“Complete corresponding source means the source that the binaries were made from”
+https://www.gnu.org/licenses/gpl-faq.en.html#MustSourceBuildToMatchExactHashOfBinary
+“If the version has been released elsewhere, then the thief probably does have the right to make copies and redistribute them under the GPL”
+https://www.gnu.org/licenses/gpl-faq.en.html#TradeSecretRelease
+“If a company distributes a copy to you and claims it is a trade secret, the company has violated the GPL” 
+https://www.gnu.org/licenses/gpl-faq.en.html#TradeSecretRelease
+
+
 Please contact FSF and ask for the GPL source code that DJI uses to be published. 
+[![Fuck yeah](https://media.giphy.com/media/wi8Ez1mwRcKGI/giphy.gif)](https://www.youtube.com/watch?v=T437DdmFNPU)
 
 http://www.fsf.org/licensing/compliance
 
@@ -54,45 +83,6 @@ lrwxr-xr-x  0 root   staff       0 Jul  9 01:51 symlink -> /data/.bin
 
 You can see this file has BOTH the root, and the downgrade packaged together. 
 
-Instructions thanks to vk2fro for taking the initiative to start *doing* instead of asking "Where is the FAQ?" like so many others
-
-```
-Mavic Flashing Faq V0.3 by vk2fro
-Flashing the Mavic Pro Drone is bloody simple with the pyduml.py script. You will need:
-a linux or mac box (live usb will work for linux)
-a mavic pro drone and connecting cable
-the script (pyduml.py) - https://github.com/hdnes/pyduml
-(mac only) homebrew - to install stuff
-pip
-python
-libusb
-adb (if you would like root)
-a firmware file (check #archived_fw_flashing for my links (vk2fro) or grab them off your momsʼs git (this one if your reading from there).
-a half hour and a coffee/beer
-
-To flash, drag the firmware into the pyduml.py folder
-
-open up a terminal and cd to /dev with the mavic connected and type ls tty.usb* and youʼll find the usb modem (in my case, tty.usbmodem14E5).
-
-now cd back to the pyduml folder - if its in you home directory, cd ~/pyduml (donʼt forget the ~)
-
-type mv <firmware name> dji_system.bin (this changes the name to work with the script)
-
-execute python pyduml.py /dev/<your.modem.number> (tty.usbmodem14E5). 
-
-python pyduml.py /dev/tty.usbmodem14E5 for example
-
-Flashing takes around 10 minutes. Watch the lights on the mavic. The mavic will chime close to completion and when the lights stop flashing it is done. Be patient - 10 minutes seems like an awfully long time, but you donʼt get a progress bar like when you flash with assistant. Do not disconnect the drone when the script says its finished - thats only the upload portion!
-
-To root, rename fireworks.tar dji_system.bin and re run the script as above. Power cycle the drone 2 minutes after running the script. DO NOT TURN OFF YET after the power cycle.
-
-Now adb devices, and you should see the mavic listed. (RedHerring has Fangs!). adb shell into it and execute these two lines (use copy and paste, a typo = a brick!) in the shell:
-
-mount -o remount,rw /system
-echo /system/bin/adb_en.sh >> /system/bin/start_dji_system.sh
-reboot
-
-This makes the root permenant.
-
-```
+This is the most up to date source of info on "rooting" DJI aircraft. Start here with questions
+http://dji.retroroms.info 
 
