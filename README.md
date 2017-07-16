@@ -93,3 +93,15 @@ You can see this file has BOTH the root, and the downgrade packaged together.
 This is the most up to date source of info on "rooting" DJI aircraft. Start here with questions
 http://dji.retroroms.info 
 
+For more information on GPL rights as a DJI Enterprise end user see below:
+
+![GPL Violation](https://pbs.twimg.com/media/DE0nLtvUIAEElqv.jpg)
+![GPL Violation](https://pbs.twimg.com/media/DE0jqs3UMAEqaKl.jpg)
+![GPL Violation](https://pbs.twimg.com/media/DE0kC3uUIAEspBe.jpg)
+![GPL Violation](https://pbs.twimg.com/media/DE0kOyBWsAAU9eN.jpg)
+![GPL Violation](https://pbs.twimg.com/media/DE0jqtmUMAEtA3E.jpg)
+![GPL Violation](https://pbs.twimg.com/media/DE0kjvkUMAECMv3.jpg)
+![GPL Violation](https://pbs.twimg.com/media/DE0lrf5VoAAN9tq.jpg)
+![GPL Violation](https://pbs.twimg.com/media/DE0mAIEUQAEfsv5.jpg)
+![GPL Violation](https://pbs.twimg.com/media/DE0mcDuUIAE4Wug.jpg)
+![GPL Violation](https://pbs.twimg.com/media/DE0nlY5VYAAZS58.jpg)
