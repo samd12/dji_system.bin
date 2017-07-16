@@ -1,6 +1,8 @@
 # dji_system.bin
 DJI is currently in violation of GPL... these binaries are intended to be distributed to end users that have purchased either an inspire2, Mavic, Spark, or P4 variant drone,and are seeking to downgrade their aircraft back to its factory state. 
 
+![GPL Violation](https://pbs.twimg.com/media/DE1Bq1zU0AEG2lx.jpg)
+
 https://www.gnu.org/licenses/gpl-faq.en.html
 ```
 “GPL gives a person permission to make & redistribute copies of the program if & when that person chooses to do so”
@@ -94,6 +96,8 @@ This is the most up to date source of info on "rooting" DJI aircraft. Start here
 http://dji.retroroms.info 
 
 For more information on GPL rights as a DJI Enterprise end user see below:
+
+![GPL Violation](https://pbs.twimg.com/media/DE1Bq2EUMAUbaQQ.jpg)
 
 ![GPL Violation](https://pbs.twimg.com/media/DE0nLtvUIAEElqv.jpg)
 ![GPL Violation](https://pbs.twimg.com/media/DE0jqs3UMAEqaKl.jpg)
